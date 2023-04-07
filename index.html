@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <!-- font awesome 'icons' -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assert/css/style.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+</head>
+
+<body>
+    <!--start login-->
+    <div class="container">
+
+        <!-- start left side -->
+        <div class="left-side">
+            <div class="content-box">
+                <div class="text-box">
+                    <h1>book your ticket online for <span>travel</span></h1>
+                    <p>Easy, Safe, Reliable Ticketing.</p>
+                </div>
+                <div class="list-box">
+                    <ul>
+                        <li><a><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- start right side -->
+        <div class="right-side">
+            <header>registration form</header>
+            <form action="#">
+                <div class="field email">
+                    <div class="input-area">
+                        <input class="emailInput" type="text" placeholder="enter your national ID">
+                        <i class="icon fa-solid fa-id-badge"></i>
+                        <i class="error error-icon fa-solid fa-circle-exclamation"></i>
+                    </div>
+                    <div class="error error-txt">ID can't be blank</div>
+                </div>
+                <div class="field email">
+                    <div class="input-area">
+                        <input class="emailInput" type="text" placeholder="enter your username">
+                        <i class="icon fa-solid fa-user"></i>
+                        <i class="error error-icon fa-solid fa-circle-exclamation"></i>
+                    </div>
+                    <div class="error error-txt">username can't be blank</div>
+                </div>
+                <div class="field email">
+                    <div class="input-area">
+                        <input class="emailInput" type="text" placeholder="enter your mobile phone">
+                        <i class="icon fa-solid fa-phone"></i>
+                        <i class="error error-icon fa-solid fa-circle-exclamation"></i>
+                    </div>
+                    <div class="error error-txt">mobile phone be blank</div>
+                </div>
+                <div class="field email">
+                    <div class="input-area">
+                        <input class="emailInput" type="text" placeholder="enter your email">
+                        <i class="icon fa-solid fa-envelope"></i>
+                        <i class="error error-icon fa-solid fa-circle-exclamation"></i>
+                    </div>
+                    <div class="error error-txt">email can't be blank</div>
+                </div>
+                <div class="field password">
+                    <div class="input-area">
+                        <input class="passInput" type="password" placeholder="enter your password">
+                        <i class="icon fa-solid fa-lock"></i>
+                        <i class="error error-icon fa-solid fa-circle-exclamation"></i>
+                    </div>
+                    <div class="error error-txt">password can't be blank</div>
+                </div>
+                <div class="forgetLink">
+                    <a href="#">forget password ?</a>
+                </div>
+                <input type="submit" value="login">
+            </form>
+            <div class="signupLink">
+                not yet member ? <a href="#">sign up now</a>
+            </div>
+        </div>
+    </div>
+    <!--end login-->
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
